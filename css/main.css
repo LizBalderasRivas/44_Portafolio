@@ -1,0 +1,127 @@
+*{
+font-family: 'Julius Sans One', sans-serif;
+}
+.fondo{
+	background-image: url(../img/fondo.jpg);
+	height: 600px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar.navbar-default{
+	background-color: white;
+	opacity: .6;
+	width: 100%;
+
+} 
+.margin-lef{
+	 margin-left: 7%; 
+}
+.color:hover{
+	background-color: red;
+}
+
+.titulo{
+	color: #fff;
+	font-size: 40px;
+	font-family: 'Farsan', cursive;
+} 
+/* .fondo ,.fondo3{
+	
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.titulo{
+	margin-top: 20%;
+}
+.medida{
+	margin-top: 15%;
+}
+.hr1{
+	border: 2px solid #8D5C87;
+	width: 10%; 
+}
+.foto{
+	margin-top: 5%;
+	border-radius: 50%;
+	width: 70%;
+	border: 2px dashed #8D5C87;
+
+}
+.sobre-mi{
+	margin-top: 5%;
+	color: #0B0603;
+	color: white;
+}
+.fondo2{
+	background-image: url(../img/fondo2.jpg);
+	height: 200px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0!important;
+	position: relative;
+    opacity: 0.80;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bkg{
+	background-color: #FF0040;
+}
+.fondo3{
+	background-image: url(../img/fondo3.jpg);
+	height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.fondo-footer{
+	background-color: #712271;
+}
+.fondo4{
+	background-color: #712271;
+	padding: 40px;
+}
+.margin{
+	margin-top: 10%;
+}
+.margin2{
+	margin-top: 5%;
+}
+/*HOVER*/
+.cambiar big {
+	color:#CC0000;font-family:trebuchet ms;
+	font-size:14pt;font-weight:normal; 
+text-decoration:none;display:inline;
+}  
+.cambiar a {
+	color:#00CCCC;
+	font-family:trebuchet ms;
+	font-size:14pt;font-weight:normal; 
+text-decoration:none;display:inline;
+}  
+.cambiar a span {
+	display:none;
+	text-decoration:none;
+}  
+.cambiar a:hover span {
+	color:#0000CC;
+	display:block;
+	text-decoration:none; 
+background-color:transparent;display:inline;
+} 
+.cambiar  a:hover big {
+	display:none;
+	text-decoration:none;
+} 
+.proyectos{
+	width: 100%;
+	height: 300px;
+}
+.sprint{
+	width: 50%;
+	height: 300px;
+}
